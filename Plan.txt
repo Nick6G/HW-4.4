@@ -1,0 +1,50 @@
+The goals for HW #4.3 was to create a quarto document that will create a pdf that will have four sections. The first section will showcase the two plots relating to the busiest airports and analysis on those plots. The second section will show the four Monte Carlo Numerical Integration plots and their analysis. The third section will relate to a new data set of my choice using a data set on calcium levels over 4 years of 31 patients where half received a treatment and half didn't, where I will also create a plan which will use Copilot to follow the plan to create the plot. The final section will be a general reflection on what I have learned so far in Stat 184.
+
+To complete these goals we need R, a QMD file that creates a PDF, to library tidyverse, rvest, dplyr, esquisse, plotly, knitr, kableExtra, and patchwork, select, mutate, rename, full_join, a MonteCarloSample function, plot10, plot100, plot1000, plot10000, and pivot_longer
+
+1. Open R
+
+2. Create YAML header and format new QMD file so that it has each of the required sections
+
+3. Type the plan for the whole QMD and then each subsections plan
+
+4. Copy the code from HW #3.4 for the airports section and the Monte Carlo Numerical Integration section
+
+5. Look through the code and update it where necessary
+
+6. Copy the descriptions and analysis of the plots from HW #3.4
+
+7. Look through the descriptions and analysis and made changes where you see fit
+
+8. Copy plan from Planning and Prompting GenAI tools and paste it to Copilot so that it can follow the plan and create the code needed
+
+9. Copy the code from Copilot into the QMD, ensuring it works properly and fixing it or asking clarifying questions to Copilot if necessary
+
+10. Add a reflection on what I have learned from this course
+
+11. Copy the prompts into Copilot and Copilots responses into Appendix 1
+
+12. Copy all the code used to wrangle the data and create the plots from the airports and Monte Carlo Numerical Integration sections into Appendix 2
+
+
+The goals for setting up the repository were to show what we have learned using GitHub by creating this repository which will include two branches, use the Issues feature, have a proper set of commits and pull requests. It will include a README file, a plan for creating both this repository and HW #4.3, the PDF I submitted for HW #4.3, and the QMD file I created for HW #4.3.
+
+To do this we need a README file, the QMD file and PDF from HW #4.3, and to use the GitHub features properly by creating Issues then solving them in another branch with commits and finally pulling that branch into the main branch.
+
+1. Create a new repository titled HW-4.4
+
+2. Create a new branch titled Practice
+
+3. Create new Issues, one for each file required
+
+4. Update the README file to contain the required elements
+
+5. Upload the files from HW #4.3, tagging the Issues this upload solves in the commit
+
+5. Close the Issues for the files from HW #4.3
+
+6. Add this plan into the Plan file citing the plan Issue
+
+7. Close the Plan Issue
+
+8. Create a Pull request from Practice into Main and merge the two branches
